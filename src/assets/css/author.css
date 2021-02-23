@@ -1,0 +1,159 @@
+.vw_no_bg {
+  background: 0 0;
+}
+
+.tab-content-container {
+  width: 1200px;
+  margin: auto;
+  /* background: #fff; */
+}
+
+.tab-content {
+  width: 1220px;
+}
+
+.vw_list_title {
+  background-color: #f4f6f9;
+  font-size: 16px;
+  color: #999;
+  padding-bottom: 30px;
+}
+
+.follower-content {
+  padding-bottom: 60px;
+  background: #fff;
+}
+
+.follower-preview {
+  width: 240px;
+  height: 286px;
+  display: inline-block;
+}
+
+.foller-item {
+  display: inline-block;
+  /* width: 140px; */
+  color: #444;
+}
+
+.foller-item .cc-user-img-con {
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: block;
+}
+
+.foller-item .cc-user-img-con .follower-avatar {
+  margin: auto;
+  width: 140px;
+}
+
+.w_default_avatar {
+  position: relative;
+}
+
+.w_default_avatar .size-140 {
+  width: 140px;
+  height: 140px;
+  border: 1px solid #e2e2e2;
+  font-size: 115px;
+}
+
+.w_default_avatar .avatar-wrapper {
+  display: inline-block;
+  border-radius: 100%;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.foller-item .user-name {
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+  margin-top: 15px;
+  height: 25px;
+  line-height: 25px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.foller-item .user-name .cc-normal-text {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 201px;
+}
+
+.foller-item .follow-other-button {
+  display: block;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80px;
+  height: 30px;
+  font-size: 0.14rem;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.w_pui_follow_button .cc_follow_btn {
+  font-size: 14px;
+}
+
+.w_pui_follow_button.cc_topic_green .cc_attension {
+  background: #96a8d0;
+  border-color: #ddd;
+  color: #444;
+  -webkit-transition: color .5s;
+  -ms-transition: color .5s;
+  -moz-transition: color .5s;
+  transition: color .5s;
+}
+
+.cc_attension_1 {
+  background: #fafafa;
+  border-color: #ddd;
+  color: #dcc963;
+  -webkit-transition: color .5s;
+  -ms-transition: color .5s;
+  -moz-transition: color .5s;
+  transition: color .5s;
+}
+
+.w_pui_follow_button .cc_follow_btn>span {
+  display: block;
+  position: relative;
+  width: 78px;
+  height: 30px;
+  line-height: 28px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.w_pui_follow_button.cc_topic_green .cc_attension:hover {
+  background-color: #ddd;
+  border-color: #ddd;
+  -webkit-transition: background-color .5s;
+  -ms-transition: background-color .5s;
+  -moz-transition: background-color .5s;
+  transition: background-color .5s;
+}
+#current .iconfont {
+  font-size: 14px;
+  width: 17px;
+  height: 17px;
+}

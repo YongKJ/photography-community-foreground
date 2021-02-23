@@ -1,0 +1,90 @@
+.vw_left {
+  width: 1006px;
+  height: 100%;
+  font-size: 0.14rem;
+  position: fixed;
+  left: 0px;
+  top: 47px;
+  box-sizing: border-box;
+  border-right: 1px solid rgb(226, 226, 226);
+  background: rgb(255, 255, 255);
+  overflow: hidden;
+}
+#base_createe .v-note-wrapper .v-note-panel .v-note-show .v-show-content, .v-note-wrapper .v-note-panel .v-note-show .v-show-content-html {
+  height: 95%;
+}
+.v-note-wrapper .v-note-op {
+  padding: 47px 0px 0px 0px;
+}
+
+#base_createe .v-note-wrapper .v-note-op .v-left-item .op-icon,
+#base_createe .v-note-wrapper .v-note-op .v-right-item .op-icon {
+  font-size: 18px;
+  color: #96a8d0;
+}
+
+.info-container {
+  padding: 0 20px 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#base_createe .info-block {
+  margin-top: 12px;
+}
+
+#base_createe .block-title {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.required-icon {
+  display: inline-block;
+  margin-left: 3px;
+  height: 16px;
+  color: #f74753;
+  vertical-align: middle;
+}
+
+.cover_image_upload .info-block .add_image_btn {
+  width: 320px;
+  height: 210px;
+  background: #f4f6f9;
+  font-size: 16px;
+  color: #999;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.el-upload {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  outline: 0;
+}
+
+.avatar-uploader-icon {
+  font-size: 35px;
+  color: #8c939d;
+  width: 178px;
+  height: 110px;
+  line-height: 150px;
+  text-align: center;
+}
+
+.avatar {
+  width: 320px;
+  height: 210px;
+  object-fit: cover;
+}
+
+#base_createe .info-container {
+  padding: 0 20px 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+}

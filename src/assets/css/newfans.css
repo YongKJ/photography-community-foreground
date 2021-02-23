@@ -1,0 +1,99 @@
+#base_list .vw_message_list {
+  background: #fff;
+}
+
+#base_list .vw_message_part {
+  padding-bottom: 26px;
+  padding-top: 27px;
+  border-bottom: 1px solid #eee;
+  margin: 0 40px;
+}
+
+.w_poco_message_briefing .cc_type_a {
+  position: relative;
+  padding: 0 100px 0 80px;
+}
+
+.w_poco_message_briefing .cc_type_a .cc_icon {
+  position: absolute;
+  width: 66px;
+  height: 66px;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+
+.w_default_avatar {
+  position: relative;
+}
+
+.w_default_avatar .size-64 {
+  width: 64px;
+  height: 64px;
+  border: 1px solid #e2e2e2;
+  font-size: 59px;
+}
+
+.w_default_avatar .avatar-wrapper {
+  display: inline-block;
+  border-radius: 100%;
+  background-size: 100%;
+  cursor: pointer;
+}
+
+a:link {
+  -webkit-touch-callout: none;
+  text-decoration: none;
+}
+
+.w_poco_message_briefing .cc_type_a .cc_msg {
+  min-height: 66px;
+}
+
+.w_poco_message_briefing .cc_type_a .cc_msg .cc_msg_main {
+  display: block;
+  font-size: 16px;
+  padding-top: 10px;
+  line-height: 28px;
+}
+
+.w_poco_message_briefing .cc_type_a .cc_msg .cc_time {
+  display: block;
+  color: #999;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.vw_message_pagination {
+  float: right;
+}
+
+ul.pagination {
+  display: inline-block;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+ul.pagination li {
+  display: inline;
+}
+
+ul.pagination li a {
+  color: #999999;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+ul.pagination li a.active {
+  background-color: #eee;
+  color: #999999;
+  border: 1px solid #ddd;
+}
+
+ul.pagination li a:hover:not(.active) {
+  background-color: #ddd;
+}
